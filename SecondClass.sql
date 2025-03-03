@@ -22,7 +22,8 @@ VALUES
 (3, 'Moiz', 21, 'HR', 60000.00, '2022-01-21'),
 (4, 'Noorain', 23, 'CS', 50000.00, '2025-11-08'),
 (5, 'Aun Abbas', 14, 'BBA', 90000.00, '2018-06-09'),
-(6, 'Bilal Ashraf', 28, 'SE', 30000.00, '2021-12-17');
+(6, 'Bilal Ashraf', 28, 'SE', 30000.00, '2021-12-17'),
+(7, 'Ali', 74, 'IT', 60000.00, '2012-03-09');
 
 SELECT EmployeeID, EmployeeName, Salary 
 FROM EMPLOYEES WHERE Department = 'PH';
