@@ -47,3 +47,15 @@ StudentID IN (
 	SELECT StudentID FROM Enrollments WHERE Grade = 'A'
 ); */
 
+/* SELECT Name FROM Students 
+WHERE Age = ( SELECT MAX(Age) FROM Students); */
+
+/* Views */
+CREATE VIEW CS_STD
+AS SELECT Name, Department From Students 
+WHERE Department = 'Computer Science';
+SELECT * FROM CS_STD;
+
+
+
+
