@@ -39,3 +39,12 @@ CREATE TABLE employees (
 ALTER TABLE employees ADD emp_name VARCHAR(50);
 
 SELECT * FROM employees;
+
+
+
+
+
+
+
+
+
